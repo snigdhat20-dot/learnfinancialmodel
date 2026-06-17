@@ -1,0 +1,128 @@
+# ==============================================
+# .gitignore for learnfinancialmodel.in
+# GitHub Pages | HTML + CSS + JS Project
+# ==============================================
+
+
+# ---------------------------
+# 🔐 SECRET & ENVIRONMENT FILES
+# (Never upload API keys or passwords)
+# ---------------------------
+.env
+.env.local
+.env.backup
+*.key
+*.secret
+config/secrets.js
+
+
+# ---------------------------
+# 📊 ANALYTICS & TRACKING
+# (Auto-generated, not needed)
+# ---------------------------
+*.log
+logs/
+npm-debug.log*
+
+
+# ---------------------------
+# 🖥️ OPERATING SYSTEM FILES
+# (Your PC creates these automatically)
+# ---------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+
+# ---------------------------
+# 📝 EDITOR & IDE FILES
+# (Your code editor settings)
+# ---------------------------
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+
+# ---------------------------
+# 🐍 PYTHON (for your scripts)
+# (Due diligence & story app scripts)
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+
+# ---------------------------
+# 📦 NODE / NPM
+# (In case you use npm in future)
+# ---------------------------
+node_modules/
+package-lock.json
+yarn.lock
+.npm
+
+
+# ---------------------------
+# 🌐 WEBSITE BUILD OUTPUTS
+# (If you ever use a build tool)
+# ---------------------------
+/dist
+/build
+/.cache
+
+
+# ---------------------------
+# 📁 TEMPORARY & BACKUP FILES
+# ---------------------------
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+*.orig
+
+
+# ---------------------------
+# 📧 BREVO / EMAIL CONFIG
+# (Keep API keys private)
+# ---------------------------
+brevo-config.js
+email-config.json
+smtp-config.*
+
+
+# ---------------------------
+# 📋 FORMSPREE / FORM CONFIG
+# (Keep form endpoints private)
+# ---------------------------
+form-config.js
+formspree-config.*
